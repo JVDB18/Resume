@@ -1,0 +1,22 @@
+@media screen and (max-width: 640px) {
+    h1 {
+        margin-top: 10%;
+      font-size: 20px;
+    }
+    h2 {
+        margin-top: 40%;
+        font-size: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px){
+    h1 {
+        margin-top: 10%;
+      font-size: 30px;
+    }
+    h2 {
+        margin-top: 15%;
+        font-size: 40px;
+    }
+  }
+
+/*# sourceMappingURL=/style.e66e92a1.css.map */
