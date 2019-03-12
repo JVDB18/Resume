@@ -1,13 +1,12 @@
 import * as React from "react";
 import About from "../Components/About";
+import Skills from "../Components/Skills";
+import Experiences from "../Components/Experiences";
+import Learn from "../Components/Learn";
+import Contact from "../Components/Contact";
 import {Parallax, Background } from "react-parallax";
-import Nav from "../Components/Nav"
+import Nav from "../Components/Nav";
 
-const styles = {
-    fontFamily: "sans-serif",
-    textAlign: "center",
-    width: "100%",
-  };
 const font= {
     fontFamily: "'Roboto Condensed', sans-serif",
     fontStyle: "normal",
@@ -28,51 +27,62 @@ class Home extends React.Component{
     }
     render(){
         return <div>
-        <div className="parallax-container" style={styles}>
+        <div className="ParallaxContainer">
             <Parallax 
-            bgImage={require('../assets/img/img1.jpg')} 
-            strength={400}
+            bgImage={require('../assets/img/img5.jpg')} 
+            strength={700}
             >
-                <div style={{ height: 750 }}>
-                    <div style={{height: 350, backgroundColor: "rgba(106, 176, 227, 0.67)",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)", color:"white", fontSize:"50px", alignItems:"center"}} className="inside_parallax1">                        
-                        <h2>| | |</h2>
-                       <h1 style={font}>JULIE VANDERBYSE</h1>
+                <div style={{ height: 600 }}>
+                    <div style={{height: 350, backgroundColor: "rgba(14, 21, 20, 0.78)",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)", color:"white", fontSize:"50px", alignItems:"center"}} className="inside_parallax1">                        
+                        <h2 className="Header">| | |</h2>
+                       <h1 className="Julie"style={font}>JULIE VANDERBYSE</h1>
                     </div>
                 </div>
             </Parallax>
             <Nav/>
-            <div className="About" id="About" style={{height:500}}>
-            <h1>| | |</h1>
-            <h2>About</h2>
             <About/>
-            </div>
         <Parallax
-        bgImage={require('../assets/img/img4.jpg')}
-        strength={300}
+        bgImage={require('../assets/img/img5.jpg')}
+        strength={700}
         >
-        <div style={{height: 1200}} className="Skills" id="Skills">
-        <div style={{height: 600, backgroundColor: "white",top: "40%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}} className="inside_parallax2">
-        <h1>|||</h1>
-        <h2>Skills</h2>
+        <div style={{height: 800}} className="Skills" id="Skills">
+        <div style={{height: 400, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}} className="inside_parallax2">
+        <Skills/>
         </div>
         </div>
         </Parallax>
-        <div className="Experiences" style={{height: 700}} id="Experiences">
-        <h1>|||</h1>
-        <h2>Experiences</h2>
-        </div>
-        <Parallax
-        bgImage={require('../assets/img/img3.jpg')}
-        strength={400}
+        <Experiences id={"Experiences"}/>
+        {/* <Parallax
+        bgImage={require('../assets/img/img5.jpg')}
+        strength={700}
         >
-        <div style={{height: 1300}} className="Learn More" id="Learn">
-        <div style={{height: 400,backgroundColor: "white",top: "30%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -40%)" }} className="inside_parallax3">
-        <h1>|||</h1>
-        <h2>Learn More</h2>
+        <div style={{height: 1000}} className="Learn More" id="Learn">
+        <div style={{height: 300,backgroundColor: "white",top: "30%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -40%)" }} className="inside_parallax3">
+        <Learn />
         </div>
         <div className="inside_parallax3b" id="Contact" style={{height: 400, backgroundColor: "white",top: "75%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
-        <h1>|||</h1>
-        <h2>Contact</h2>
+        <Contact />
+        </div>
+        </div>
+        </Parallax> */}
+        <Parallax
+        bgImage={require('../assets/img/img5.jpg')}
+        strength={700}
+        >
+        <div style={{height: 700}} className="Bdgr"id="Badgr">
+        <div className="inside_parallax3b" id="Contact" style={{height: 400, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
+        <h2>Badges</h2>
+        </div>
+        </div>
+        </Parallax>
+        <Learn />
+        <Parallax
+        bgImage={require('../assets/img/img5.jpg')}
+        strenght={700}
+        >
+        <div style={{height: 500}} className="Contact" id="Contact">
+        <div className="inside_parallax3b" id="Contact" style={{height: 300, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
+        <Contact />
         </div>
         </div>
         </Parallax>

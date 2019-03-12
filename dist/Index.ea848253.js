@@ -25704,7 +25704,9 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"src/client/Components/About.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"src/client/assets/img/pic2.png":[function(require,module,exports) {
+module.exports = "/../../../../pic2.0b792f0b.png";
+},{}],"src/client/Components/About.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25713,6 +25715,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var React = _interopRequireWildcard(require("react"));
+
+require("../assets/img/pic2.png");
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
@@ -25748,7 +25752,17 @@ function (_React$Component) {
   _createClass(About, [{
     key: "render",
     value: function render() {
-      return React.createElement("div", null, "Hello World");
+      return React.createElement("div", {
+        className: "SectionContainer"
+      }, React.createElement("h2", {
+        className: "Title2",
+        id: "#About"
+      }, "- About -"), React.createElement("img", {
+        src: require("../assets/img/pic2.png"),
+        className: "ProfilePic"
+      }), React.createElement("p", {
+        className: "AboutText"
+      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae."));
     }
   }]);
 
@@ -25757,7 +25771,400 @@ function (_React$Component) {
 
 var _default = About;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../assets/img/pic2.png":"src/client/assets/img/pic2.png"}],"src/client/assets/icons/css.png":[function(require,module,exports) {
+module.exports = "/../../../../css.4406e398.png";
+},{}],"src/client/assets/icons/docker.png":[function(require,module,exports) {
+module.exports = "/../../../../docker.7e4cdc19.png";
+},{}],"src/client/assets/icons/figma.png":[function(require,module,exports) {
+module.exports = "/../../../../figma.fe1514ce.png";
+},{}],"src/client/assets/icons/html.png":[function(require,module,exports) {
+module.exports = "/../../../../html.18dd64c9.png";
+},{}],"src/client/assets/icons/js.png":[function(require,module,exports) {
+module.exports = "/../../../../js.749ae109.png";
+},{}],"src/client/assets/icons/laravel.png":[function(require,module,exports) {
+module.exports = "/../../../../laravel.81be8107.png";
+},{}],"src/client/assets/icons/mongo.png":[function(require,module,exports) {
+module.exports = "/../../../../mongo.d4e6fcf3.png";
+},{}],"src/client/assets/icons/node.png":[function(require,module,exports) {
+module.exports = "/../../../../node.70b5769f.png";
+},{}],"src/client/assets/icons/php.png":[function(require,module,exports) {
+module.exports = "/../../../../php.e6a66715.png";
+},{}],"src/client/assets/icons/react.png":[function(require,module,exports) {
+module.exports = "/../../../../react.98991ccd.png";
+},{}],"src/client/assets/icons/sql.png":[function(require,module,exports) {
+module.exports = "/../../../../sql.72a11d9e.png";
+},{}],"src/client/assets/icons/vue.png":[function(require,module,exports) {
+module.exports = "/../../../../vue.7eb0961b.png";
+},{}],"src/client/assets/icons/git.png":[function(require,module,exports) {
+module.exports = "/../../../../git.d0bd9b86.png";
+},{}],"src/client/Components/Skills.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+require("../assets/icons/css.png");
+
+require("../assets/icons/docker.png");
+
+require("../assets/icons/figma.png");
+
+require("../assets/icons/html.png");
+
+require("../assets/icons/js.png");
+
+require("../assets/icons/laravel.png");
+
+require("../assets/icons/mongo.png");
+
+require("../assets/icons/node.png");
+
+require("../assets/icons/php.png");
+
+require("../assets/icons/react.png");
+
+require("../assets/icons/sql.png");
+
+require("../assets/icons/vue.png");
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Skills =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Skills, _React$Component);
+
+  function Skills() {
+    _classCallCheck(this, Skills);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Skills).apply(this, arguments));
+  }
+
+  _createClass(Skills, [{
+    key: "render",
+    value: function render() {
+      return React.createElement("div", {
+        className: "SectionContainer"
+      }, React.createElement("h2", {
+        className: "Title4"
+      }, "- Skills -"), React.createElement("div", {
+        className: "IconsContainer"
+      }, React.createElement("div", {
+        className: "SkillsContainer1"
+      }, React.createElement("img", {
+        className: "Icons1",
+        src: require("../assets/icons/js.png")
+      }), React.createElement("img", {
+        className: "Icons1",
+        src: require("../assets/icons/vue.png")
+      }), React.createElement("img", {
+        className: "Icons1",
+        src: require("../assets/icons/react.png")
+      })), React.createElement("div", {
+        className: "SkillsContainer2"
+      }, React.createElement("img", {
+        className: "Icons",
+        src: require("../assets/icons/node.png")
+      }), React.createElement("img", {
+        className: "Icons",
+        src: require("../assets/icons/php.png")
+      }), React.createElement("img", {
+        className: "Icons",
+        src: require("../assets/icons/laravel.png")
+      })), React.createElement("div", {
+        className: "SkillsContainer3"
+      }, React.createElement("img", {
+        className: "Icons1",
+        src: require("../assets/icons/docker.png")
+      }), React.createElement("img", {
+        className: "Icons1",
+        src: require("../assets/icons/sql.png")
+      }), React.createElement("img", {
+        className: "Icons1",
+        src: require("../assets/icons/git.png")
+      })), React.createElement("div", {
+        className: "SkillsContainer4"
+      }, React.createElement("img", {
+        className: "Icons",
+        src: require("../assets/icons/html.png")
+      }), React.createElement("img", {
+        className: "Icons",
+        src: require("../assets/icons/css.png")
+      }), React.createElement("img", {
+        className: "IconsMongo",
+        src: require("../assets/icons/mongo.png")
+      })), React.createElement("div", {
+        className: "SkillsContainer5"
+      }, React.createElement("img", {
+        className: "Icons",
+        src: require("../assets/icons/figma.png")
+      }))), React.createElement("div", {
+        className: "SoftText"
+      }, React.createElement("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae.")));
+    }
+  }]);
+
+  return Skills;
+}(React.Component);
+
+var _default = Skills;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../assets/icons/css.png":"src/client/assets/icons/css.png","../assets/icons/docker.png":"src/client/assets/icons/docker.png","../assets/icons/figma.png":"src/client/assets/icons/figma.png","../assets/icons/html.png":"src/client/assets/icons/html.png","../assets/icons/js.png":"src/client/assets/icons/js.png","../assets/icons/laravel.png":"src/client/assets/icons/laravel.png","../assets/icons/mongo.png":"src/client/assets/icons/mongo.png","../assets/icons/node.png":"src/client/assets/icons/node.png","../assets/icons/php.png":"src/client/assets/icons/php.png","../assets/icons/react.png":"src/client/assets/icons/react.png","../assets/icons/sql.png":"src/client/assets/icons/sql.png","../assets/icons/vue.png":"src/client/assets/icons/vue.png","../assets/icons/git.png":"src/client/assets/icons/git.png"}],"src/client/assets/img/timeline.png":[function(require,module,exports) {
+module.exports = "/../../../../timeline.8f4b8e1f.png";
+},{}],"src/client/Components/Experiences.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+require("../assets/img/timeline.png");
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Experiences =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Experiences, _React$Component);
+
+  function Experiences(props) {
+    var _this;
+
+    _classCallCheck(this, Experiences);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Experiences).call(this, props));
+    _this.state = {
+      id: {
+        props: props
+      }
+    };
+    return _this;
+  }
+
+  _createClass(Experiences, [{
+    key: "render",
+    value: function render() {
+      return React.createElement("div", {
+        className: "SectionContainer",
+        id: this.state.id
+      }, React.createElement("h2", {
+        className: "Title5"
+      }, "- Experiences -"), React.createElement("img", {
+        className: "Timeline",
+        src: require("../assets/img/timeline.png")
+      }));
+    }
+  }]);
+
+  return Experiences;
+}(React.Component);
+
+var _default = Experiences;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../assets/img/timeline.png":"src/client/assets/img/timeline.png"}],"src/client/Components/Learn.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Learn =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Learn, _React$Component);
+
+  function Learn() {
+    _classCallCheck(this, Learn);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Learn).apply(this, arguments));
+  }
+
+  _createClass(Learn, [{
+    key: "render",
+    value: function render() {
+      return React.createElement("div", {
+        className: "SectionContainer"
+      }, React.createElement("h2", {
+        className: "Title4"
+      }, "- Learn More -"), React.createElement("p", {
+        className: "LearnText"
+      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae."));
+    }
+  }]);
+
+  return Learn;
+}(React.Component);
+
+var _default = Learn;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/client/assets/icons/git2.png":[function(require,module,exports) {
+module.exports = "/../../../../git2.d9f7b02a.png";
+},{}],"src/client/assets/icons/gmail.png":[function(require,module,exports) {
+module.exports = "/../../../../gmail.27e6253a.png";
+},{}],"src/client/assets/icons/smartphone.svg":[function(require,module,exports) {
+module.exports = "/../../../../smartphone.4828304b.svg";
+},{}],"src/client/assets/icons/linkedin.png":[function(require,module,exports) {
+module.exports = "/../../../../linkedin.ff299fad.png";
+},{}],"src/client/Components/Contact.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+require("../assets/icons/git2.png");
+
+require("../assets/icons/gmail.png");
+
+require("../assets/icons/smartphone.svg");
+
+require("../assets/icons/linkedin.png");
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Contact =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Contact, _React$Component);
+
+  function Contact() {
+    _classCallCheck(this, Contact);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Contact).apply(this, arguments));
+  }
+
+  _createClass(Contact, [{
+    key: "render",
+    value: function render() {
+      return React.createElement("div", {
+        className: "SectionContainer"
+      }, React.createElement("h2", {
+        className: "Title2"
+      }, "Contact"), React.createElement("div", {
+        className: "Contact1"
+      }, React.createElement("img", {
+        src: require("../assets/icons/linkedin.png"),
+        className: "ContactIcon"
+      }), React.createElement("a", {
+        href: "https://www.linkedin.com/in/julie-vanderbyse/",
+        className: "LinkText"
+      }, React.createElement("p", {
+        className: "LinkText"
+      }, "LinkedIn")), React.createElement("p", {
+        className: "PhoneText"
+      }, "+32.498.41.54.32"), React.createElement("img", {
+        src: require("../assets/icons/smartphone.svg"),
+        className: "ContactIcon"
+      })), React.createElement("div", {
+        className: "Contact2"
+      }, React.createElement("p", {
+        className: "MailText"
+      }, "vanderbysej@gmail.com"), React.createElement("img", {
+        src: require("../assets/icons/gmail.png"),
+        className: "ContactIcon"
+      }), React.createElement("img", {
+        src: require("../assets/icons/git2.png"),
+        className: "ContactIcon"
+      }), React.createElement("a", {
+        href: "https://github.com/JVDB18/",
+        className: "GitText"
+      }, "GitHub")));
+    }
+  }]);
+
+  return Contact;
+}(React.Component);
+
+var _default = Contact;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../assets/icons/git2.png":"src/client/assets/icons/git2.png","../assets/icons/gmail.png":"src/client/assets/icons/gmail.png","../assets/icons/smartphone.svg":"src/client/assets/icons/smartphone.svg","../assets/icons/linkedin.png":"src/client/assets/icons/linkedin.png"}],"node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
 /** @license React v16.8.4
  * react-is.development.js
  *
@@ -26685,27 +27092,27 @@ var React = _interopRequireWildcard(require("react"));
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 var Nav = function Nav() {
-  return React.createElement("div", null, React.createElement("a", {
+  return React.createElement("div", {
+    className: "NavHeader"
+  }, React.createElement("div", {
+    className: "NavContainer"
+  }, React.createElement("nav", null, React.createElement("ul", null, React.createElement("li", null, React.createElement("a", {
     href: "#About"
-  }, "About"), React.createElement("a", {
+  }, "About")), React.createElement("li", null, React.createElement("a", {
     href: "#Skills"
-  }, "Skills"), React.createElement("a", {
+  }, "Skills")), React.createElement("li", null, React.createElement("a", {
     href: "#Experiences"
-  }, "Experiences"), React.createElement("a", {
+  }, "Experiences")), React.createElement("li", null, React.createElement("a", {
     href: "#Learn"
-  }, "Learn more"), React.createElement("a", {
+  }, "Learn More")), React.createElement("li", null, React.createElement("a", {
     href: "#Contact"
-  }, "Contact"));
+  }, "Contact"))))));
 };
 
 var _default = Nav;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"src/client/assets/img/img1.jpg":[function(require,module,exports) {
-module.exports = "/../../../../img1.a8aede77.jpg";
-},{}],"src/client/assets/img/img4.jpg":[function(require,module,exports) {
-module.exports = "/../../../../img4.949c6cea.jpg";
-},{}],"src/client/assets/img/img3.jpg":[function(require,module,exports) {
-module.exports = "/../../../../img3.e8dbb21d.jpg";
+},{"react":"node_modules/react/index.js"}],"src/client/assets/img/img5.jpg":[function(require,module,exports) {
+module.exports = "/../../../../img5.ec6b1efd.jpg";
 },{}],"src/client/Pages/Home.js":[function(require,module,exports) {
 "use strict";
 
@@ -26717,6 +27124,14 @@ exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
 
 var _About = _interopRequireDefault(require("../Components/About"));
+
+var _Skills = _interopRequireDefault(require("../Components/Skills"));
+
+var _Experiences = _interopRequireDefault(require("../Components/Experiences"));
+
+var _Learn = _interopRequireDefault(require("../Components/Learn"));
+
+var _Contact = _interopRequireDefault(require("../Components/Contact"));
 
 var _reactParallax = require("react-parallax");
 
@@ -26744,11 +27159,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-var styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center",
-  width: "100%"
-};
 var font = {
   fontFamily: "'Roboto Condensed', sans-serif",
   fontStyle: "normal",
@@ -26782,19 +27192,18 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return React.createElement("div", null, React.createElement("div", {
-        className: "parallax-container",
-        style: styles
+        className: "ParallaxContainer"
       }, React.createElement(_reactParallax.Parallax, {
-        bgImage: require('../assets/img/img1.jpg'),
-        strength: 400
+        bgImage: require('../assets/img/img5.jpg'),
+        strength: 700
       }, React.createElement("div", {
         style: {
-          height: 750
+          height: 600
         }
       }, React.createElement("div", {
         style: {
           height: 350,
-          backgroundColor: "rgba(106, 176, 227, 0.67)",
+          backgroundColor: "rgba(14, 21, 20, 0.78)",
           top: "50%",
           left: "50%",
           width: "100%",
@@ -26805,73 +27214,76 @@ function (_React$Component) {
           alignItems: "center"
         },
         className: "inside_parallax1"
-      }, React.createElement("h2", null, "| | |"), React.createElement("h1", {
+      }, React.createElement("h2", {
+        className: "Header"
+      }, "| | |"), React.createElement("h1", {
+        className: "Julie",
         style: font
-      }, "JULIE VANDERBYSE")))), React.createElement(_Nav.default, null), React.createElement("div", {
-        className: "About",
-        id: "About",
-        style: {
-          height: 500
-        }
-      }, React.createElement("h1", null, "| | |"), React.createElement("h2", null, "About"), React.createElement(_About.default, null)), React.createElement(_reactParallax.Parallax, {
-        bgImage: require('../assets/img/img4.jpg'),
-        strength: 300
+      }, "JULIE VANDERBYSE")))), React.createElement(_Nav.default, null), React.createElement(_About.default, null), React.createElement(_reactParallax.Parallax, {
+        bgImage: require('../assets/img/img5.jpg'),
+        strength: 700
       }, React.createElement("div", {
         style: {
-          height: 1200
+          height: 800
         },
         className: "Skills",
         id: "Skills"
       }, React.createElement("div", {
         style: {
-          height: 600,
+          height: 400,
           backgroundColor: "white",
-          top: "40%",
+          top: "50%",
           left: "50%",
           width: "100%",
           position: "absolute",
           transform: "translate(-50%, -50%)"
         },
         className: "inside_parallax2"
-      }, React.createElement("h1", null, "|||"), React.createElement("h2", null, "Skills")))), React.createElement("div", {
-        className: "Experiences",
+      }, React.createElement(_Skills.default, null)))), React.createElement(_Experiences.default, {
+        id: "Experiences"
+      }), React.createElement(_reactParallax.Parallax, {
+        bgImage: require('../assets/img/img5.jpg'),
+        strength: 700
+      }, React.createElement("div", {
         style: {
           height: 700
         },
-        id: "Experiences"
-      }, React.createElement("h1", null, "|||"), React.createElement("h2", null, "Experiences")), React.createElement(_reactParallax.Parallax, {
-        bgImage: require('../assets/img/img3.jpg'),
-        strength: 400
+        className: "Bdgr",
+        id: "Badgr"
       }, React.createElement("div", {
-        style: {
-          height: 1300
-        },
-        className: "Learn More",
-        id: "Learn"
-      }, React.createElement("div", {
-        style: {
-          height: 400,
-          backgroundColor: "white",
-          top: "30%",
-          left: "50%",
-          width: "100%",
-          position: "absolute",
-          transform: "translate(-50%, -40%)"
-        },
-        className: "inside_parallax3"
-      }, React.createElement("h1", null, "|||"), React.createElement("h2", null, "Learn More")), React.createElement("div", {
         className: "inside_parallax3b",
         id: "Contact",
         style: {
           height: 400,
           backgroundColor: "white",
-          top: "75%",
+          top: "50%",
           left: "50%",
           width: "100%",
           position: "absolute",
           transform: "translate(-50%, -50%)"
         }
-      }, React.createElement("h1", null, "|||"), React.createElement("h2", null, "Contact"))))));
+      }, React.createElement("h2", null, "Badges")))), React.createElement(_Learn.default, null), React.createElement(_reactParallax.Parallax, {
+        bgImage: require('../assets/img/img5.jpg'),
+        strenght: 700
+      }, React.createElement("div", {
+        style: {
+          height: 500
+        },
+        className: "Contact",
+        id: "Contact"
+      }, React.createElement("div", {
+        className: "inside_parallax3b",
+        id: "Contact",
+        style: {
+          height: 300,
+          backgroundColor: "white",
+          top: "50%",
+          left: "50%",
+          width: "100%",
+          position: "absolute",
+          transform: "translate(-50%, -50%)"
+        }
+      }, React.createElement(_Contact.default, null))))));
     }
   }]);
 
@@ -26880,7 +27292,7 @@ function (_React$Component) {
 
 var _default = Home;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Components/About":"src/client/Components/About.js","react-parallax":"node_modules/react-parallax/dist/index.js","../Components/Nav":"src/client/Components/Nav.js","../assets/img/img1.jpg":"src/client/assets/img/img1.jpg","../assets/img/img4.jpg":"src/client/assets/img/img4.jpg","../assets/img/img3.jpg":"src/client/assets/img/img3.jpg"}],"src/client/Index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Components/About":"src/client/Components/About.js","../Components/Skills":"src/client/Components/Skills.js","../Components/Experiences":"src/client/Components/Experiences.js","../Components/Learn":"src/client/Components/Learn.js","../Components/Contact":"src/client/Components/Contact.js","react-parallax":"node_modules/react-parallax/dist/index.js","../Components/Nav":"src/client/Components/Nav.js","../assets/img/img5.jpg":"src/client/assets/img/img5.jpg"}],"src/client/Index.js":[function(require,module,exports) {
 "use strict";
 
 var React = _interopRequireWildcard(require("react"));
@@ -26924,7 +27336,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39227" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33759" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
