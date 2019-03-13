@@ -3,6 +3,7 @@ import About from "../Components/About";
 import Skills from "../Components/Skills";
 import Experiences from "../Components/Experiences";
 import Learn from "../Components/Learn";
+import Badges from "../Components/Badges";
 import Contact from "../Components/Contact";
 import {Parallax, Background } from "react-parallax";
 import Nav from "../Components/Nav";
@@ -31,7 +32,7 @@ class Home extends React.Component{
                 <div style={{ height: 600 }}>
                     <div style={{height: 350, backgroundColor: "rgba(14, 21, 20, 0.78)",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)", color:"white", fontSize:"50px", alignItems:"center"}} className="inside_parallax1">                        
                         <h2 className="Header">| | |</h2>
-                       <h1 className="Julie"style={font}>JULIE VANDERBYSE test 666</h1>
+                       <h1 className="Julie"style={font}>JULIE VANDERBYSE</h1>
                     </div>
                 </div>
             </Parallax>
@@ -52,21 +53,19 @@ class Home extends React.Component{
         bgImage={ParallaxImage}
         strength={700}
         >
-        <div style={{height: 700}} className="Bdgr"id="Badgr">
+        <div style={{height: 700}} className="Bdgr">
         <div className="inside_parallax3b" style={{height: 400, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
-        <h2>Badges</h2>
+        {/* <Badges /> */}
+        <Learn />
         </div>
         </div>
         </Parallax>
-        <Learn />
+        <Contact />
         <Parallax
         bgImage={require('../assets/img/img5.jpg')}
         strenght={700}
         >
-        <div style={{height: 700}} className="Contact">
-        <div className="inside_parallax3b"  style={{height: 300, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
-        <Contact />
-        </div>
+        <div style={{height: 100}} className="Contact">
         </div>
         </Parallax>
         </div>

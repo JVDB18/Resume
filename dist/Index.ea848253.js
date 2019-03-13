@@ -26059,113 +26059,7 @@ function (_React$Component) {
 
 var _default = Learn;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"src/client/assets/icons/git2.png":[function(require,module,exports) {
-module.exports = "/git2.d9f7b02a.png";
-},{}],"src/client/assets/icons/gmail.png":[function(require,module,exports) {
-module.exports = "/gmail.27e6253a.png";
-},{}],"src/client/assets/icons/smartphone.svg":[function(require,module,exports) {
-module.exports = "/smartphone.4828304b.svg";
-},{}],"src/client/assets/icons/linkedin.png":[function(require,module,exports) {
-module.exports = "/linkedin.ff299fad.png";
-},{}],"src/client/Components/Contact.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(require("react"));
-
-require("../assets/icons/git2.png");
-
-require("../assets/icons/gmail.png");
-
-require("../assets/icons/smartphone.svg");
-
-require("../assets/icons/linkedin.png");
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-var Contact =
-/*#__PURE__*/
-function (_React$Component) {
-  _inherits(Contact, _React$Component);
-
-  function Contact() {
-    _classCallCheck(this, Contact);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Contact).apply(this, arguments));
-  }
-
-  _createClass(Contact, [{
-    key: "render",
-    value: function render() {
-      return React.createElement("div", {
-        className: "SectionContainer",
-        id: "Contact"
-      }, React.createElement("h2", {
-        className: "Title2"
-      }, "- Contact -"), React.createElement("div", {
-        className: "Contact1"
-      }, React.createElement("img", {
-        src: require("../assets/icons/linkedin.png"),
-        className: "ContactIcon"
-      }), React.createElement("div", {
-        className: "LinkText"
-      }, React.createElement("a", {
-        href: "https://www.linkedin.com/in/julie-vanderbyse/"
-      }, "LinkedIn"))), React.createElement("div", {
-        className: "Contact2"
-      }, React.createElement("img", {
-        src: require("../assets/icons/smartphone.svg"),
-        className: "ContactIcon"
-      }), React.createElement("p", {
-        className: "PhoneText"
-      }, "+32.498.41.54.32")), React.createElement("div", {
-        className: "Contact3"
-      }, React.createElement("img", {
-        src: require("../assets/icons/git2.png"),
-        className: "ContactIcon"
-      }), React.createElement("div", {
-        className: "LinkText"
-      }, React.createElement("a", {
-        href: "https://github.com/JVDB18/"
-      }, "GitHub"))), React.createElement("div", {
-        className: "Contact4"
-      }, React.createElement("img", {
-        src: require("../assets/icons/gmail.png"),
-        className: "ContactIcon"
-      }), React.createElement("p", {
-        className: "MailText"
-      }, "vanderbysej@gmail.com")));
-    }
-  }]);
-
-  return Contact;
-}(React.Component);
-
-var _default = Contact;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../assets/icons/git2.png":"src/client/assets/icons/git2.png","../assets/icons/gmail.png":"src/client/assets/icons/gmail.png","../assets/icons/smartphone.svg":"src/client/assets/icons/smartphone.svg","../assets/icons/linkedin.png":"src/client/assets/icons/linkedin.png"}],"node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
 /** @license React v16.8.4
  * react-is.development.js
  *
@@ -27077,7 +26971,195 @@ if ("development" !== 'production') {
   // http://fb.me/prop-types-in-prod
   module.exports = require('./factoryWithThrowingShims')();
 }
-},{"react-is":"node_modules/react-is/index.js","./factoryWithTypeCheckers":"node_modules/prop-types/factoryWithTypeCheckers.js"}],"node_modules/react-parallax/dist/index.js":[function(require,module,exports) {
+},{"react-is":"node_modules/react-is/index.js","./factoryWithTypeCheckers":"node_modules/prop-types/factoryWithTypeCheckers.js"}],"node_modules/react-iframe/index.min.js":[function(require,module,exports) {
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function")}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called")}return call&&(typeof call==="object"||typeof call==="function")?call:self}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass)}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass}var React=require("react");var PureComponent=React.PureComponent;var PropTypes=require("prop-types");var objectAssign=require("object-assign");function noop(){}var Iframe=function(_PureComponent){_inherits(Iframe,_PureComponent);function Iframe(){_classCallCheck(this,Iframe);return _possibleConstructorReturn(this,(Iframe.__proto__||Object.getPrototypeOf(Iframe)).apply(this,arguments))}_createClass(Iframe,[{key:"render",value:function render(){var props={ref:"iframe",frameBorder:"0",src:this.props.url,target:"_parent",allowFullScreen:this.props.allowFullScreen||false,style:objectAssign({},{position:this.props.position||"absolute",display:this.props.display||"block",height:this.props.height||"100%",width:this.props.width||"100%"},this.props.styles||{}),height:this.props.height||"100%",name:this.props.name||"",width:this.props.width||"100%",onLoad:this.props.onLoad||noop,onMouseOver:this.props.onMouseOver||noop,onMouseOut:this.props.onMouseOut||noop};return React.createElement("iframe",objectAssign(props,this.props.id?{id:this.props.id}:{},this.props.sandbox?{sandbox:this.props.sandbox}:{},this.props.allow?{allow:this.props.allow}:{},this.props.className?{className:this.props.className}:{},this.props.title?{title:this.props.title}:{},this.props.ariaHidden?{"aria-hidden":"true"}:{}))}}]);return Iframe}(PureComponent);Iframe.propTypes={url:PropTypes.string.isRequired,id:PropTypes.string,title:PropTypes.string,className:PropTypes.string,width:PropTypes.string,position:PropTypes.string,display:PropTypes.string,name:PropTypes.string,height:PropTypes.string,onLoad:PropTypes.func,sandbox:PropTypes.string,allow:PropTypes.string,onMouseOver:PropTypes.func,onMouseOut:PropTypes.func,styles:PropTypes.object,allowFullScreen:PropTypes.bool,ariaHidden:PropTypes.bool};exports.default=Iframe;
+
+},{"react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","object-assign":"node_modules/object-assign/index.js"}],"src/client/Components/Badges.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactIframe = _interopRequireDefault(require("react-iframe"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+var Badges = function Badges() {
+  return React.createElement("div", {
+    className: "SectionContainer",
+    id: "Badgr"
+  }, React.createElement(_reactIframe.default, {
+    url: "https://api.badgr.io/public/collections/b8fb6db591c8e71a3374487f7ab589ae?embed=true&embedVersion=1&embedWidth=330&embedHeight=186",
+    width: "330px",
+    height: "186px",
+    className: "Iframe1",
+    styles: {
+      color: "white"
+    },
+    position: "initial"
+  }), React.createElement(_reactIframe.default, {
+    url: "https://api.badgr.io/public/collections/fdfa7ea08ed5f221fb453a8081edb616?embed=true&embedVersion=1&embedWidth=330&embedHeight=186",
+    width: "330px",
+    height: "186px",
+    className: "Iframe2",
+    styles: {
+      color: "white"
+    },
+    position: "initial"
+  }), React.createElement(_reactIframe.default, {
+    url: "https://api.badgr.io/public/collections/627d32103422472b481be8933ef49429?embed=true&embedVersion=1&embedWidth=330&embedHeight=186",
+    width: "330px",
+    height: "186px",
+    className: "Iframe3",
+    styles: {
+      color: "white"
+    },
+    position: "initial"
+  }));
+};
+
+var _default = Badges;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","react-iframe":"node_modules/react-iframe/index.min.js"}],"src/client/assets/icons/git2.png":[function(require,module,exports) {
+module.exports = "/git2.d9f7b02a.png";
+},{}],"src/client/assets/icons/gmail.png":[function(require,module,exports) {
+module.exports = "/gmail.27e6253a.png";
+},{}],"src/client/assets/icons/smartphone.svg":[function(require,module,exports) {
+module.exports = "/smartphone.4828304b.svg";
+},{}],"src/client/assets/icons/linkedin.png":[function(require,module,exports) {
+module.exports = "/linkedin.ff299fad.png";
+},{}],"src/client/Components/Contact.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+require("../assets/icons/git2.png");
+
+require("../assets/icons/gmail.png");
+
+require("../assets/icons/smartphone.svg");
+
+require("../assets/icons/linkedin.png");
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Contact =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Contact, _React$Component);
+
+  function Contact() {
+    _classCallCheck(this, Contact);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Contact).apply(this, arguments));
+  }
+
+  _createClass(Contact, [{
+    key: "render",
+    value: function render() {
+      return React.createElement("div", {
+        className: "SectionContainer",
+        id: "Contact"
+      }, React.createElement("h2", {
+        className: "Title2"
+      }, "- Contact -"), React.createElement("div", {
+        className: "FormContainer"
+      }, React.createElement("form", {
+        action: "https://formspree.io/vanderbysej@gmail.com",
+        method: "POST"
+      }, React.createElement("h3", {
+        className: "FormTitle"
+      }, "Leave me a message!"), React.createElement("input", {
+        type: "email",
+        className: "Mail",
+        placeholder: "email",
+        name: "_replyto",
+        required: true
+      }), React.createElement("textarea", {
+        type: "text",
+        className: "Text",
+        placeholder: "text",
+        name: "name",
+        required: true
+      }), React.createElement("input", {
+        type: "submit",
+        className: "Send",
+        value: "Send",
+        target: "blank",
+        required: true
+      }))), React.createElement("div", {
+        className: "Contact1"
+      }, React.createElement("img", {
+        src: require("../assets/icons/gmail.png"),
+        className: "ContactIcon"
+      }), React.createElement("p", {
+        className: "MailText"
+      }, "vanderbysej@gmail.com")), React.createElement("div", {
+        className: "Contact2"
+      }, React.createElement("img", {
+        src: require("../assets/icons/smartphone.svg"),
+        className: "ContactIcon"
+      }), React.createElement("p", {
+        className: "PhoneText"
+      }, "+32.498.41.54.32")), React.createElement("div", {
+        className: "Contact3"
+      }, React.createElement("img", {
+        src: require("../assets/icons/git2.png"),
+        className: "ContactIcon"
+      }), React.createElement("div", {
+        className: "LinkText"
+      }, React.createElement("a", {
+        href: "https://github.com/JVDB18/",
+        target: "blank"
+      }, "GitHub"))), React.createElement("div", {
+        className: "Contact4"
+      }, React.createElement("img", {
+        src: require("../assets/icons/linkedin.png"),
+        className: "ContactIcon"
+      }), React.createElement("div", {
+        className: "LinkText"
+      }, React.createElement("a", {
+        href: "https://www.linkedin.com/in/julie-vanderbyse/",
+        target: "blank"
+      }, "LinkedIn"))));
+    }
+  }]);
+
+  return Contact;
+}(React.Component);
+
+var _default = Contact;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../assets/icons/git2.png":"src/client/assets/icons/git2.png","../assets/icons/gmail.png":"src/client/assets/icons/gmail.png","../assets/icons/smartphone.svg":"src/client/assets/icons/smartphone.svg","../assets/icons/linkedin.png":"src/client/assets/icons/linkedin.png"}],"node_modules/react-parallax/dist/index.js":[function(require,module,exports) {
 var define;
 !function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(require("prop-types"),require("react")):"function"==typeof define&&define.amd?define("react-parallax",["prop-types","react"],t):"object"==typeof exports?exports["react-parallax"]=t(require("prop-types"),require("react")):e["react-parallax"]=t(e.PropTypes,e.React)}("undefined"!=typeof self?self:this,function(n,r){return function(n){var r={};function o(e){if(r[e])return r[e].exports;var t=r[e]={i:e,l:!1,exports:{}};return n[e].call(t.exports,t,t.exports,o),t.l=!0,t.exports}return o.m=n,o.c=r,o.d=function(e,t,n){o.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},o.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},o.t=function(t,e){if(1&e&&(t=o(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var r in t)o.d(n,r,function(e){return t[e]}.bind(null,r));return n},o.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return o.d(t,"a",t),t},o.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},o.p="",o(o.s=2)}([function(e,t){e.exports=n},function(e,t){e.exports=r},function(e,t,n){"use strict";n.r(t);var r=n(0),o=n.n(r),i=n(1),m=n.n(i);function a(e){if(!e)return 0;var t=window,n=document,r=n.documentElement,o=n.getElementsByTagName("body")[0];return t.innerHeight||r.clientHeight||o.clientHeight}function c(e,t){return e?t?t.clientHeight:a(e):0}function s(e){var n=[],r=m.a.Children.toArray(e.children);return r.forEach(function(e,t){e.type&&e.type.isParallaxBackground&&(n=n.concat(r.splice(t,1)))}),{bgChildren:n,children:r}}function l(e){return(l="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function u(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function f(e,t){return!t||"object"!==l(t)&&"function"!=typeof t?function(e){if(void 0!==e)return e;throw new ReferenceError("this hasn't been initialised - super() hasn't been called")}(e):t}function p(e){return(p=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function g(e,t){return(g=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}var b=function(e){function t(){return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,t),f(this,p(t).apply(this,arguments))}var n,r,o;return function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&g(e,t)}(t,i["PureComponent"]),n=t,(r=[{key:"render",value:function(){var e=this.props,t=e.children,n=e.onMount,r=e.className;return m.a.createElement("div",{ref:function(e){return n(e)},className:r||"react-parallax-content",style:{position:"relative"}},t)}}])&&u(n.prototype,r),o&&u(n,o),t}();b.propTypes={children:o.a.node,className:o.a.string,onMount:o.a.func},b.propTypes={};var h=b;function d(e){return(d="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function y(t){for(var e=1;e<arguments.length;e++){var n=null!=arguments[e]?arguments[e]:{},r=Object.keys(n);"function"==typeof Object.getOwnPropertySymbols&&(r=r.concat(Object.getOwnPropertySymbols(n).filter(function(e){return Object.getOwnPropertyDescriptor(n,e).enumerable}))),r.forEach(function(e){v(t,e,n[e])})}return t}function v(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function S(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function w(e,t){return!t||"object"!==d(t)&&"function"!=typeof t?function(e){if(void 0!==e)return e;throw new ReferenceError("this hasn't been initialised - super() hasn't been called")}(e):t}function I(e){return(I=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function O(e,t){return(O=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}var P={position:"absolute",left:"50%",WebkitTransform:"translate3d(-50%, 0, 0)",transform:"translate3d(-50%, 0, 0)",WebkitTransformStyle:"preserve-3d",WebkitBackfaceVisibility:"hidden",MozBackfaceVisibility:"hidden",MsBackfaceVisibility:"hidden"},j=function(e){function t(e){var n;return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,t),(n=w(this,I(t).call(this,e))).onWindowResize=function(){n.parentHeight=c(n.canUseDOM,n.parent),n.updatePosition()},n.onWindowLoad=function(){n.updatePosition()},n.onScroll=function(){if(n.canUseDOM){var e=Date.now();10<=e-n.timestamp&&function(e){var t=1<arguments.length&&void 0!==arguments[1]?arguments[1]:0,n=2<arguments.length?arguments[2]:void 0;if(!n)return!1;var r=e.getBoundingClientRect().top-t,o=e.getBoundingClientRect().bottom+t;return r<=a(n)&&0<=o}(n.node,100,n.canUseDOM)&&(window.requestAnimationFrame(n.updatePosition),n.timestamp=e)}},n.onContentMount=function(e){n.content=e},n.updatePosition=function(){if(n.content){var e=!1;n.contentHeight=n.content.getBoundingClientRect().height,n.contentWidth=n.node.getBoundingClientRect().width,n.img&&n.img.naturalWidth/n.img.naturalHeight<n.contentWidth/n.getImageHeight()&&(e=!0);var t=function(e,t){if(!t)return 0;var n,r=e.getBoundingClientRect(),o=r.top,i=r.height,a=c(t),s=a<i?i:a;return(Math.round(s<o?s:o)-(n=-i))/(s-n)||0}(n.node,n.canUseDOM,n.parent);n.img&&n.setImagePosition(t,e),n.bg&&0<n.splitChildren.bgChildren.length&&n.setBackgroundPosition(t)}},n.state={bgImage:e.bgImage,bgImageSrcSet:e.bgImageSrcSet,bgImageSizes:e.bgImageSizes,imgStyle:P,bgStyle:y({},P,e.bgStyle),percentage:0},n.canUseDOM=!("undefined"==typeof window||!window.document||!window.document.createElement),n.node=null,n.content=null,n.splitChildren=s(e),n.bgImageLoaded=!1,n.bgImageRef=void 0,n.parent=e.parent,n.parentHeight=c(n.canUseDOM,n.parent),n.timestamp=Date.now(),n.dynamicBlur=!(!e.blur||void 0===e.blur.min||void 0===e.blur.max),n}var n,r,o;return function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&O(e,t)}(t,i["Component"]),n=t,(r=[{key:"componentDidMount",value:function(){var e=this.props.parent,t=this.state,n=t.bgImage,r=t.bgImageSrcSet,o=t.bgImageSizes;this.parent=e||document,this.addListeners(),n?this.loadImage(n,r,o):this.updatePosition()}},{key:"componentWillReceiveProps",value:function(e){var t=e.parent,n=e.bgImage,r=e.bgImageSrcSet,o=e.bgImageSizes,i=this.state.bgImage;this.splitChildren=s(e),t&&this.parent!==t&&(this.parent=t,this.removeListeners(),this.addListeners()),this.parentHeight=c(this.canUseDOM,this.parent),i!==n&&this.loadImage(n,r,o)}},{key:"shouldComponentUpdate",value:function(e,t){var n=this.props.bgImage,r=this.state.bgImage;return e.bgImage===n||t.bgImage!==r}},{key:"componentWillUnmount",value:function(){this.removeListeners(this.parent),this.releaseImage()}},{key:"setBackgroundPosition",value:function(e){var t=this.props,n=t.disabled,r=t.strength;if(!0!==n){var o=this.state.bgStyle,i="translate3d(-50%, ".concat((r<0?r:0)-r*e,"px, 0)");this.setState({bgStyle:y({},o,{WebkitTransform:i,transform:i}),percentage:e})}}},{key:"setImagePosition",value:function(e){var t=1<arguments.length&&void 0!==arguments[1]&&arguments[1],n=this.props,r=n.disabled,o=n.strength,i=n.blur,a=t?"auto":"".concat(this.getImageHeight(),"px"),s=t?"".concat(this.contentWidth,"px"):"auto";if(!0!==r){var c=this.state.imgStyle,l="translate3d(-50%, ".concat((o<0?o:0)-o*e,"px, 0)"),u="none";if(i){var f=this.dynamicBlur?i.min+(1-e)*i.max:i;u="blur(".concat(f,"px)")}this.setState({imgStyle:y({},c,{height:a,width:s,WebkitTransform:l,transform:l,WebkitFilter:u,filter:u}),percentage:e})}}},{key:"getImageHeight",value:function(){var e=this.props.strength,t=(e<0?2.5:1)*Math.abs(e);return Math.floor(this.contentHeight+t)}},{key:"loadImage",value:function(e,t,n){var r=this;this.releaseImage(),this.bgImageRef=new Image,this.bgImageRef.onload=function(){r.setState({bgImage:e,bgImageSrcSet:t,bgImageSizes:n},function(){return r.updatePosition()})},this.bgImageRef.onerror=this.bgImageRef.onload,this.bgImageRef.src=e,this.bgImageRef.srcset=t||"",this.bgImageRef.sizes=n||""}},{key:"releaseImage",value:function(){this.bgImageRef&&(this.bgImageRef.onload=null,this.bgImageRef.onerror=null,delete this.bgImageRef)}},{key:"addListeners",value:function(){this.canUseDOM&&this.parent&&(this.parent.addEventListener("scroll",this.onScroll,!1),window.addEventListener("resize",this.onWindowResize,!1),window.addEventListener("load",this.onWindowLoad,!1))}},{key:"removeListeners",value:function(){this.canUseDOM&&this.parent&&(this.parent.removeEventListener("scroll",this.onScroll,!1),window.removeEventListener("resize",this.onWindowResize,!1),window.removeEventListener("load",this.onWindowLoad,!1))}},{key:"log",value:function(){var e=this.props.log;if(e){for(var t=arguments.length,n=new Array(t),r=0;r<t;r++)n[r]=arguments[r];console.log(n)}}},{key:"render",value:function(){var t=this,e=this.props,n=e.className,r=e.style,o=e.bgClassName,i=e.contentClassName,a=e.bgImageAlt,s=e.renderLayer,c=e.bgImageStyle,l=this.state,u=l.bgImage,f=l.bgImageSrcSet,p=l.bgImageSizes,g=l.percentage,b=l.imgStyle,d=l.bgStyle;return m.a.createElement("div",{className:"react-parallax ".concat(n),style:y({position:"relative",overflow:"hidden"},r),ref:function(e){t.node=e}},u?m.a.createElement("img",{className:o,src:u,srcSet:f,sizes:p,ref:function(e){t.img=e},alt:a,style:y({},b,c)}):null,s?s(Math.min(-(g-1),1)):null,0<this.splitChildren.bgChildren.length?m.a.createElement("div",{className:"react-parallax-background-children",ref:function(e){t.bg=e},style:d},this.splitChildren.bgChildren):null,m.a.createElement(h,{onMount:this.onContentMount,className:i},this.splitChildren.children))}}])&&S(n.prototype,r),o&&S(n,o),t}();j.propTypes={bgClassName:o.a.string,bgImage:o.a.string,bgImageAlt:o.a.string,bgImageSizes:o.a.string,bgImageSrcSet:o.a.string,bgImageStyle:o.a.shape({}),bgStyle:o.a.shape({}),blur:o.a.oneOfType([o.a.number,o.a.object]),className:o.a.string,contentClassName:o.a.string,disabled:o.a.bool,log:o.a.bool,parent:o.a.any,renderLayer:o.a.func,strength:o.a.number,style:o.a.shape({})},j.defaultProps={bgClassName:"react-parallax-bgimage",bgImage:void 0,bgImageAlt:"",bgImageSizes:void 0,bgImageSrcSet:void 0,bgImageStyle:void 0,bgStyle:void 0,blur:void 0,className:"",contentClassName:"",disabled:!1,log:!1,parent:void 0,renderLayer:void 0,strength:100,style:void 0};var k=j;function x(e){return(x="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function C(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function _(e,t){return!t||"object"!==x(t)&&"function"!=typeof t?function(e){if(void 0!==e)return e;throw new ReferenceError("this hasn't been initialised - super() hasn't been called")}(e):t}function E(e){return(E=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function M(e,t){return(M=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}var R=function(e){function t(){return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,t),_(this,E(t).apply(this,arguments))}var n,r,o;return function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&M(e,t)}(t,m.a.Component),n=t,o=[{key:"isParallaxBackground",value:function(){return!0}}],(r=[{key:"render",value:function(){return m.a.createElement("div",{className:"react-parallax-background ".concat(this.props.className)},this.props.children)}}])&&C(n.prototype,r),o&&C(n,o),t}();R.propTypes={children:o.a.node,className:o.a.string},R.defaultProps={className:""};var N=R;n.d(t,"Parallax",function(){return k}),n.d(t,"Background",function(){return N})}])});
 },{"prop-types":"node_modules/prop-types/index.js","react":"node_modules/react/index.js"}],"node_modules/react-scroll/modules/mixins/utils.js":[function(require,module,exports) {
@@ -29154,6 +29236,7 @@ var Nav = function Nav() {
     activeClass: "active",
     className: "About",
     to: "About",
+    offset: -200,
     spy: true,
     smooth: true,
     duration: 500
@@ -29161,6 +29244,7 @@ var Nav = function Nav() {
     activeClass: "active",
     className: "Skills",
     to: "Skills",
+    offset: -200,
     spy: true,
     smooth: true,
     duration: 500
@@ -29168,6 +29252,7 @@ var Nav = function Nav() {
     activeClass: "active",
     className: "Badges",
     to: "Badgr",
+    offset: -200,
     spy: true,
     smooth: true,
     duration: 500
@@ -29175,6 +29260,7 @@ var Nav = function Nav() {
     activeClass: "active",
     className: "Experiences",
     to: "Experiences",
+    offset: -200,
     spy: true,
     smooth: true,
     duration: 500
@@ -29182,6 +29268,7 @@ var Nav = function Nav() {
     activeClass: "active",
     className: "Learn",
     to: "Learn",
+    offset: -50,
     spy: true,
     smooth: true,
     duration: 500
@@ -29189,6 +29276,7 @@ var Nav = function Nav() {
     activeClass: "active",
     className: "Contact",
     to: "Contact",
+    offset: -200,
     spy: true,
     smooth: true,
     duration: 500
@@ -29216,6 +29304,8 @@ var _Skills = _interopRequireDefault(require("../Components/Skills"));
 var _Experiences = _interopRequireDefault(require("../Components/Experiences"));
 
 var _Learn = _interopRequireDefault(require("../Components/Learn"));
+
+var _Badges = _interopRequireDefault(require("../Components/Badges"));
 
 var _Contact = _interopRequireDefault(require("../Components/Contact"));
 
@@ -29302,7 +29392,7 @@ function (_React$Component) {
       }, "| | |"), React.createElement("h1", {
         className: "Julie",
         style: font
-      }, "JULIE VANDERBYSE test 666")))), React.createElement(_Nav.default, null), React.createElement(_About.default, null), React.createElement(_reactParallax.Parallax, {
+      }, "JULIE VANDERBYSE")))), React.createElement(_Nav.default, null), React.createElement(_About.default, null), React.createElement(_reactParallax.Parallax, {
         bgImage: _img.default,
         strength: 700
       }, React.createElement("div", {
@@ -29328,8 +29418,7 @@ function (_React$Component) {
         style: {
           height: 700
         },
-        className: "Bdgr",
-        id: "Badgr"
+        className: "Bdgr"
       }, React.createElement("div", {
         className: "inside_parallax3b",
         style: {
@@ -29341,26 +29430,15 @@ function (_React$Component) {
           position: "absolute",
           transform: "translate(-50%, -50%)"
         }
-      }, React.createElement("h2", null, "Badges")))), React.createElement(_Learn.default, null), React.createElement(_reactParallax.Parallax, {
+      }, React.createElement(_Learn.default, null)))), React.createElement(_Contact.default, null), React.createElement(_reactParallax.Parallax, {
         bgImage: require('../assets/img/img5.jpg'),
         strenght: 700
       }, React.createElement("div", {
         style: {
-          height: 700
+          height: 100
         },
         className: "Contact"
-      }, React.createElement("div", {
-        className: "inside_parallax3b",
-        style: {
-          height: 300,
-          backgroundColor: "white",
-          top: "50%",
-          left: "50%",
-          width: "100%",
-          position: "absolute",
-          transform: "translate(-50%, -50%)"
-        }
-      }, React.createElement(_Contact.default, null))))));
+      }))));
     }
   }]);
 
@@ -29369,7 +29447,7 @@ function (_React$Component) {
 
 var _default = Home;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Components/About":"src/client/Components/About.js","../Components/Skills":"src/client/Components/Skills.js","../Components/Experiences":"src/client/Components/Experiences.js","../Components/Learn":"src/client/Components/Learn.js","../Components/Contact":"src/client/Components/Contact.js","react-parallax":"node_modules/react-parallax/dist/index.js","../Components/Nav":"src/client/Components/Nav.js","../assets/img/img5.jpg":"src/client/assets/img/img5.jpg"}],"src/client/Index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Components/About":"src/client/Components/About.js","../Components/Skills":"src/client/Components/Skills.js","../Components/Experiences":"src/client/Components/Experiences.js","../Components/Learn":"src/client/Components/Learn.js","../Components/Badges":"src/client/Components/Badges.js","../Components/Contact":"src/client/Components/Contact.js","react-parallax":"node_modules/react-parallax/dist/index.js","../Components/Nav":"src/client/Components/Nav.js","../assets/img/img5.jpg":"src/client/assets/img/img5.jpg"}],"src/client/Index.js":[function(require,module,exports) {
 "use strict";
 
 var React = _interopRequireWildcard(require("react"));
@@ -29413,7 +29491,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44189" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38121" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
