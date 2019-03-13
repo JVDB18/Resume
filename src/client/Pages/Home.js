@@ -80,7 +80,7 @@ class Home extends React.Component{
         bgImage={require('../assets/img/img5.jpg')}
         strenght={700}
         >
-        <div style={{height: 600}} className="Contact" id="Contact">
+        <div style={{height: 700}} className="Contact" id="Contact">
         <div className="inside_parallax3b" id="Contact" style={{height: 300, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
         <Contact />
         </div>

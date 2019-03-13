@@ -5,7 +5,7 @@
   "main": "/src/client/Index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./ -d docs"
+    "build": "parcel build index.html --public-url https://jvdb18.github.io/Resume/ ./ -d docs"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
   "author": "Julie Vanderbyse",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-import": "^1.11.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-parallax": "^2.2.0",
