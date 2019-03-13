@@ -6,6 +6,7 @@ import Learn from "../Components/Learn";
 import Contact from "../Components/Contact";
 import {Parallax, Background } from "react-parallax";
 import Nav from "../Components/Nav";
+import ParallaxImage from "../assets/img/img5.jpg";
 
 const font= {
     fontFamily: "'Roboto Condensed', sans-serif",
@@ -19,17 +20,12 @@ const font= {
     marginTop: -10
 }
 class Home extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            img1:'../assets/img/img1.jpg',
-        };
-    }
     render(){
+        console.warn("ParallaxImage:", ParallaxImage);
         return <div>
         <div className="ParallaxContainer">
             <Parallax 
-            bgImage={require('../assets/img/img5.jpg')} 
+            bgImage={ParallaxImage} 
             strength={700}
             >
                 <div style={{ height: 600 }}>
@@ -42,7 +38,7 @@ class Home extends React.Component{
             <Nav/>
             <About/>
         <Parallax
-        bgImage={require('../assets/img/img5.jpg')}
+        bgImage={ParallaxImage}
         strength={700}
         >
         <div style={{height: 800}} className="Skills" id="Skills">
@@ -66,7 +62,7 @@ class Home extends React.Component{
         </div>
         </Parallax> */}
         <Parallax
-        bgImage={require('../assets/img/img5.jpg')}
+        bgImage={ParallaxImage}
         strength={700}
         >
         <div style={{height: 700}} className="Bdgr"id="Badgr">

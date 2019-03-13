@@ -27143,6 +27143,8 @@ var _reactParallax = require("react-parallax");
 
 var _Nav = _interopRequireDefault(require("../Components/Nav"));
 
+var _img = _interopRequireDefault(require("../assets/img/img5.jpg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
@@ -27182,25 +27184,20 @@ var Home =
 function (_React$Component) {
   _inherits(Home, _React$Component);
 
-  function Home(props) {
-    var _this;
-
+  function Home() {
     _classCallCheck(this, Home);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Home).call(this, props));
-    _this.state = {
-      img1: '../assets/img/img1.jpg'
-    };
-    return _this;
+    return _possibleConstructorReturn(this, _getPrototypeOf(Home).apply(this, arguments));
   }
 
   _createClass(Home, [{
     key: "render",
     value: function render() {
+      console.warn("ParallaxImage:", _img.default);
       return React.createElement("div", null, React.createElement("div", {
         className: "ParallaxContainer"
       }, React.createElement(_reactParallax.Parallax, {
-        bgImage: require('../assets/img/img5.jpg'),
+        bgImage: _img.default,
         strength: 700
       }, React.createElement("div", {
         style: {
@@ -27225,8 +27222,8 @@ function (_React$Component) {
       }, "| | |"), React.createElement("h1", {
         className: "Julie",
         style: font
-      }, "JULIE VANDERBYSE test")))), React.createElement(_Nav.default, null), React.createElement(_About.default, null), React.createElement(_reactParallax.Parallax, {
-        bgImage: require('../assets/img/img5.jpg'),
+      }, "JULIE VANDERBYSE test 4")))), React.createElement(_Nav.default, null), React.createElement(_About.default, null), React.createElement(_reactParallax.Parallax, {
+        bgImage: _img.default,
         strength: 700
       }, React.createElement("div", {
         style: {
@@ -27248,7 +27245,7 @@ function (_React$Component) {
       }, React.createElement(_Skills.default, null)))), React.createElement(_Experiences.default, {
         id: "Experiences"
       }), React.createElement(_reactParallax.Parallax, {
-        bgImage: require('../assets/img/img5.jpg'),
+        bgImage: _img.default,
         strength: 700
       }, React.createElement("div", {
         style: {
@@ -27342,7 +27339,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40895" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "32935" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
