@@ -9,7 +9,7 @@ class Contact extends React.Component{
             <h2 className="Title2">- Contact -</h2>
             <div className="Contact1">
                 <img src={require("../assets/icons/linkedin.png")} className="ContactIcon"/>
-                <span className="LinkText"><a href="https://www.linkedin.com/in/julie-vanderbyse/" className="LinkText">LinkedIn</a></span>
+                <div className="LinkText"><a href="https://www.linkedin.com/in/julie-vanderbyse/">LinkedIn</a></div>
                 </div>
             <div className="Contact2">
                 <img src={require("../assets/icons/smartphone.svg")} className="ContactIcon"/>
