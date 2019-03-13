@@ -35,7 +35,7 @@ class Home extends React.Component{
                 <div style={{ height: 600 }}>
                     <div style={{height: 350, backgroundColor: "rgba(14, 21, 20, 0.78)",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)", color:"white", fontSize:"50px", alignItems:"center"}} className="inside_parallax1">                        
                         <h2 className="Header">| | |</h2>
-                       <h1 className="Julie"style={font}>JULIE VANDERBYSE</h1>
+                       <h1 className="Julie"style={font}>JULIE VANDERBYSE test</h1>
                     </div>
                 </div>
             </Parallax>
