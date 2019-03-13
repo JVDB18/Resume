@@ -5,7 +5,7 @@ import "../assets/icons/smartphone.svg";
 import "../assets/icons/linkedin.png";
 
 class Contact extends React.Component{
-    render(){ return <div className="SectionContainer">
+    render(){ return <div className="SectionContainer" id="Contact">
             <h2 className="Title2">- Contact -</h2>
             <div className="Contact1">
                 <img src={require("../assets/icons/linkedin.png")} className="ContactIcon"/>

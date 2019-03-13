@@ -14,7 +14,7 @@ import "../assets/icons/vue.png";
 
 class Skills extends React.Component{
     render(){
-        return <div className="SectionContainer">
+        return <div className="SectionContainer" id="Skills">
         {/* <h1 className="Title3">|||</h1> */}
         <h2 className="Title4">- Skills -</h2>
         <div className="IconsContainer">

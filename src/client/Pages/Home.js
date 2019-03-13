@@ -41,32 +41,19 @@ class Home extends React.Component{
         bgImage={ParallaxImage}
         strength={700}
         >
-        <div style={{height: 800}} className="Skills" id="Skills">
+        <div style={{height: 800}} className="Skills">
         <div style={{height: 400, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}} className="inside_parallax2">
         <Skills/>
         </div>
         </div>
         </Parallax>
-        <Experiences id={"Experiences"}/>
-        {/* <Parallax
-        bgImage={require('../assets/img/img5.jpg')}
-        strength={700}
-        >
-        <div style={{height: 1000}} className="Learn More" id="Learn">
-        <div style={{height: 300,backgroundColor: "white",top: "30%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -40%)" }} className="inside_parallax3">
-        <Learn />
-        </div>
-        <div className="inside_parallax3b" id="Contact" style={{height: 400, backgroundColor: "white",top: "75%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
-        <Contact />
-        </div>
-        </div>
-        </Parallax> */}
+        <Experiences/>
         <Parallax
         bgImage={ParallaxImage}
         strength={700}
         >
         <div style={{height: 700}} className="Bdgr"id="Badgr">
-        <div className="inside_parallax3b" id="Contact" style={{height: 400, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
+        <div className="inside_parallax3b" style={{height: 400, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
         <h2>Badges</h2>
         </div>
         </div>
@@ -76,8 +63,8 @@ class Home extends React.Component{
         bgImage={require('../assets/img/img5.jpg')}
         strenght={700}
         >
-        <div style={{height: 700}} className="Contact" id="Contact">
-        <div className="inside_parallax3b" id="Contact" style={{height: 300, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
+        <div style={{height: 700}} className="Contact">
+        <div className="inside_parallax3b"  style={{height: 300, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
         <Contact />
         </div>
         </div>
