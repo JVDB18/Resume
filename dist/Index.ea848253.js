@@ -26127,35 +26127,40 @@ function (_React$Component) {
         className: "SectionContainer"
       }, React.createElement("h2", {
         className: "Title2"
-      }, "Contact"), React.createElement("div", {
+      }, "- Contact -"), React.createElement("div", {
         className: "Contact1"
       }, React.createElement("img", {
         src: require("../assets/icons/linkedin.png"),
         className: "ContactIcon"
-      }), React.createElement("a", {
+      }), React.createElement("span", {
+        className: "LinkText"
+      }, React.createElement("a", {
         href: "https://www.linkedin.com/in/julie-vanderbyse/",
         className: "LinkText"
-      }, React.createElement("p", {
-        className: "LinkText"
-      }, "LinkedIn")), React.createElement("p", {
-        className: "PhoneText"
-      }, "+32.498.41.54.32"), React.createElement("img", {
+      }, "LinkedIn"))), React.createElement("div", {
+        className: "Contact2"
+      }, React.createElement("img", {
         src: require("../assets/icons/smartphone.svg"),
         className: "ContactIcon"
-      })), React.createElement("div", {
-        className: "Contact2"
-      }, React.createElement("p", {
-        className: "MailText"
-      }, "vanderbysej@gmail.com"), React.createElement("img", {
-        src: require("../assets/icons/gmail.png"),
-        className: "ContactIcon"
-      }), React.createElement("img", {
+      }), React.createElement("p", {
+        className: "PhoneText"
+      }, "+32.498.41.54.32")), React.createElement("div", {
+        className: "Contact3"
+      }, React.createElement("img", {
         src: require("../assets/icons/git2.png"),
         className: "ContactIcon"
-      }), React.createElement("a", {
-        href: "https://github.com/JVDB18/",
-        className: "GitText"
-      }, "GitHub")));
+      }), React.createElement("div", {
+        className: "LinkText"
+      }, React.createElement("a", {
+        href: "https://github.com/JVDB18/"
+      }, "GitHub"))), React.createElement("div", {
+        className: "Contact4"
+      }, React.createElement("img", {
+        src: require("../assets/icons/gmail.png"),
+        className: "ContactIcon"
+      }), React.createElement("p", {
+        className: "MailText"
+      }, "vanderbysej@gmail.com")));
     }
   }]);
 
@@ -27267,7 +27272,7 @@ function (_React$Component) {
         strenght: 700
       }, React.createElement("div", {
         style: {
-          height: 500
+          height: 600
         },
         className: "Contact",
         id: "Contact"
@@ -27336,7 +27341,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33759" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37201" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

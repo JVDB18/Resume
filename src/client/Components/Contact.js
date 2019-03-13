@@ -6,18 +6,22 @@ import "../assets/icons/linkedin.png";
 
 class Contact extends React.Component{
     render(){ return <div className="SectionContainer">
-            <h2 className="Title2">Contact</h2>
+            <h2 className="Title2">- Contact -</h2>
             <div className="Contact1">
                 <img src={require("../assets/icons/linkedin.png")} className="ContactIcon"/>
-                <a href="https://www.linkedin.com/in/julie-vanderbyse/" className="LinkText"><p className="LinkText">LinkedIn</p></a>
-                <p className="PhoneText">+32.498.41.54.32</p>
-                <img src={require("../assets/icons/smartphone.svg")} className="ContactIcon"/>
-            </div>
+                <span className="LinkText"><a href="https://www.linkedin.com/in/julie-vanderbyse/" className="LinkText">LinkedIn</a></span>
+                </div>
             <div className="Contact2">
-                <p className="MailText">vanderbysej@gmail.com</p>
-                <img src={require("../assets/icons/gmail.png")} className="ContactIcon"/>
+                <img src={require("../assets/icons/smartphone.svg")} className="ContactIcon"/>
+                <p className="PhoneText">+32.498.41.54.32</p>
+            </div>
+            <div className="Contact3">
                 <img src={require("../assets/icons/git2.png")} className="ContactIcon"/>
-                <a href="https://github.com/JVDB18/" className="GitText">GitHub</a>
+                <div className="LinkText"><a href="https://github.com/JVDB18/">GitHub</a></div>
+            </div>
+            <div className="Contact4">
+                <img src={require("../assets/icons/gmail.png")} className="ContactIcon"/>
+                <p className="MailText">vanderbysej@gmail.com</p>
             </div>
             </div>
     }
