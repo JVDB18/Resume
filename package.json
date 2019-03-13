@@ -5,11 +5,11 @@
   "main": "/src/client/Index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url /Resume/  -d docs"
+    "build": "parcel build index.html --public-url /Resume -d docs"
   },
   "repository": {
     "type": "git",
-    "url": "web-resume"
+    "url": "https://github.com/JVDB18/Resume"
   },
   "keywords": [],
   "author": "Julie Vanderbyse",
