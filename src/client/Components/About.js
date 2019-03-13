@@ -7,7 +7,7 @@ class About extends React.Component{
 
                             {/* <h1 className="Title">| | |</h1> */}
                             <h2 className="Title2" id="#About">- About -</h2>
-                            <img src={Pic2} className="ProfilePic"/>
+                            <img src={`${process.env.BASE_PATH || " "}/${Pic2}`} className="ProfilePic"/>
                             <p className="AboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae.
