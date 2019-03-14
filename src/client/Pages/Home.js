@@ -3,23 +3,15 @@ import About from "../Components/About";
 import Skills from "../Components/Skills";
 import Experiences from "../Components/Experiences";
 import Learn from "../Components/Learn";
-import Badges from "../Components/Badges";
+// import Badges from "../Components/Badges";
 import Contact from "../Components/Contact";
 import {Parallax, Background } from "react-parallax";
 import Nav from "../Components/Nav";
 import ParallaxImage from "../assets/img/img5.jpg";
+import Down from "../assets/icons/down.png";
+import {Link} from "react-scroll";
 
-const font= {
-    fontFamily: "'Roboto Condensed', sans-serif",
-    fontStyle: "normal",
-    fontWeight: "bold",
-    lineHeight: "normal",
-    letterSpacing: "0.3em",
-    textTransform: "capitalize",
-    fontVariant: "small-caps",
-    fontFeatureSettings: "'pnum' on, 'onum' on",
-    marginTop: -10
-}
+
 class Home extends React.Component{
     render(){
         console.warn("ParallaxImage:", ParallaxImage);
@@ -29,44 +21,51 @@ class Home extends React.Component{
             bgImage={ParallaxImage} 
             strength={700}
             >
-                <div style={{ height: 600 }}>
-                    <div style={{height: 350, backgroundColor: "rgba(14, 21, 20, 0.78)",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)", color:"white", fontSize:"50px", alignItems:"center"}} className="inside_parallax1">                        
+                <div className="HeaderContainer" id="Header">
+                    <div className="InsideParallax">                        
                         <h2 className="Header">| | |</h2>
-                       <h1 className="Julie"style={font}>JULIE VANDERBYSE</h1>
+                       <h1 className="Header">JULIE VANDERBYSE</h1>
+                       <Link className="About" to="About" offset={-90} spy={true} smooth={true} duration={1000}>
+                        <div className="arrow">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </Parallax>
             <Nav/>
             <About/>
-        <Parallax
-        bgImage={ParallaxImage}
-        strength={700}
-        >
-        <div style={{height: 800}} className="Skills">
-        <div style={{height: 400, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}} className="inside_parallax2">
-        <Skills/>
-        </div>
-        </div>
-        </Parallax>
+            <Parallax
+            bgImage={ParallaxImage}
+            strength={700}
+            >
+                <div className="Skills">
+                    <div className="InsideParallax2">
+                        <Skills/>
+                    </div>
+                </div>
+            </Parallax>
         <Experiences/>
         <Parallax
         bgImage={ParallaxImage}
         strength={700}
         >
-        <div style={{height: 700}} className="Bdgr">
-        <div className="inside_parallax3b" style={{height: 400, backgroundColor: "white",top: "50%", left:"50%", width:"100%",position:"absolute", transform:"translate(-50%, -50%)"}}>
-        {/* <Badges /> */}
-        <Learn />
-        </div>
-        </div>
+            <div className="Learn">
+                <div className="InsideParallax3">
+                {/* <Badges /> */}
+                    <Learn />
+                </div>
+            </div>
         </Parallax>
         <Contact />
         <Parallax
-        bgImage={require('../assets/img/img5.jpg')}
+        bgImage={ParallaxImage}
         strenght={700}
         >
-        <div style={{height: 100}} className="Contact">
-        </div>
+            <div  className="ContactFooter">
+            </div>
         </Parallax>
         </div>
     </div>
