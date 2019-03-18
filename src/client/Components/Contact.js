@@ -6,8 +6,10 @@ import LinkedIN from "../assets/icons/linkedin.png";
 import {Link} from "react-scroll";
 import PDF from "../assets/CV.pdf";
 import DL from "../assets/icons/download.png";
+import Share from "./Share";
 
 class Contact extends React.Component{
+
     render(){ return <div className="SectionContainer3" id="Contact">
             <h2 className="Title2">- Contact -</h2>
             <div className="Contact1">
@@ -26,8 +28,12 @@ class Contact extends React.Component{
                 <img src={LinkedIN} className="ContactIcon"/>
                 <div className="LinkText"><a  className="LinksB" href="https://www.linkedin.com/in/julie-vanderbyse/" target="blank">LinkedIn</a></div>     
             </div>
-            <a href={PDF} target="blank" className="PDFLink" id="Download">
-                <img className="DlIcon" src={DL}/>Download Resume in PDF</a>
+            <div className="PDFLink">
+            <img className="DlIcon" src={DL}/>
+            <a href={PDF} target="blank" className="LinksB" id="Download">
+                Download Resume in PDF</a>
+            </div>
+            <Share />
             <div className="FormContainer">
             <form action="https://formspree.io/vanderbysej@gmail.com" method="POST">
                 <h3 className="FormTitle">Leave me a message!</h3>

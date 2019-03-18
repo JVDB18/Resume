@@ -7,11 +7,11 @@ import Learn from "../Components/Learn";
 import Contact from "../Components/Contact";
 import {Parallax, Background } from "react-parallax";
 import ParallaxImage from "../assets/img/img5.jpg";
-import Down from "../assets/icons/down.png";
 import {Link} from "react-scroll";
 
 
 class Home extends React.Component{
+
     render(){
         console.warn("ParallaxImage:", ParallaxImage);
         return <div>
