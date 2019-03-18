@@ -12,7 +12,7 @@ import Reactpng from "../assets/icons/react.png";
 import SQL from "../assets/icons/sql.png";
 import VUE from "../assets/icons/vue.png";
 import GIT from "../assets/icons/git.png";
-import PDF from "../assets/CV.pdf";
+
 
 class Skills extends React.Component{
     render(){
@@ -50,8 +50,7 @@ class Skills extends React.Component{
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae.
                             </p>
         </div>
-        <div className="BadgrLink"><a href="https://api.badgr.io/public/collections/65e9d39f03b194bfc85ba0d47588badb" target="blank">View Badges's Collection</a></div>
-        <div className="PDFLink"><a href={PDF} target="blank">Download Resume in PDF</a></div>
+        <div className="BadgrLink"><a className="LinksB" href="https://api.badgr.io/public/collections/65e9d39f03b194bfc85ba0d47588badb" target="blank">View Badges's Collection</a></div>
 
         </div>
     }

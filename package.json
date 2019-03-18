@@ -19,6 +19,7 @@
     "@svgr/cli": "^4.1.0",
     "babel-plugin-import": "^1.11.0",
     "parcel-bundler": "^1.12.1",
+    "pwnd-naab": "^1.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-iframe": "^1.5.0",

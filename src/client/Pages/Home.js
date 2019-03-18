@@ -6,7 +6,6 @@ import Learn from "../Components/Learn";
 // import Badges from "../Components/Badges";
 import Contact from "../Components/Contact";
 import {Parallax, Background } from "react-parallax";
-import Nav from "../Components/Nav";
 import ParallaxImage from "../assets/img/img5.jpg";
 import Down from "../assets/icons/down.png";
 import {Link} from "react-scroll";
@@ -21,10 +20,9 @@ class Home extends React.Component{
             bgImage={ParallaxImage} 
             strength={700}
             >
-                <div className="HeaderContainer" id="Header">
-                    <div className="InsideParallax">                        
-                        <h2 className="Header">| | |</h2>
-                       <h1 className="Header">JULIE VANDERBYSE</h1>
+                <div className="HeaderContainer" id="HeaderContainer">
+                    <div className="InsideParallax"> 
+                       <h1 id="Header"className="Active">JULIE VANDERBYSE</h1>
                        <Link className="About" to="About" offset={-90} spy={true} smooth={true} duration={1000}>
                         <div className="arrow">
                                 <span></span>
@@ -35,7 +33,6 @@ class Home extends React.Component{
                     </div>
                 </div>
             </Parallax>
-            <Nav/>
             <About/>
             <Parallax
             bgImage={ParallaxImage}
@@ -52,7 +49,7 @@ class Home extends React.Component{
         bgImage={ParallaxImage}
         strength={700}
         >
-            <div className="Learn">
+            <div className="Learn" id="Learn">
                 <div className="InsideParallax3">
                 {/* <Badges /> */}
                     <Learn />
