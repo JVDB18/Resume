@@ -38,14 +38,14 @@ class BurgerNav extends React.Component{
           <span id="span3"></span>
         </div>
         <div id="NavLink" className={this.state.className}>
-          <Link to="About" offset={-90}className="Links">About</Link>
-          <Link to="Skills" offset={-100}className="Links">Skills</Link>
-          <Link to="Experiences" offset={-50}className="Links">Experiences</Link>
-          <Link to="Learn" offset={60}className="Links">Learn More</Link>
-          <Link to="Contact"className="Links">Contact</Link>
-          <a href={PDF} target="blank" className="Links" id="Download">
+          <Link to="About" offset={-90}className="Links" onClick={this.handleClick}>About</Link>
+          <Link to="Skills" offset={-100}className="Links" onClick={this.handleClick}>Skills</Link>
+          <Link to="Experiences" offset={-50}className="Links" onClick={this.handleClick}>Experiences</Link>
+          <Link to="Learn" offset={60}className="Links" onClick={this.handleClick}>Learn More</Link>
+          <Link to="Contact"className="Links" onClick={this.handleClick}>Contact</Link>
+          <a href={PDF} target="blank" className="Links" id="Download" onClick={this.handleClick}>
                Download in PDF</a>
-          <Link to="HeaderContainer" className="Links">Back to top</Link>
+          <Link to="HeaderContainer" className="Links" onClick={this.handleClick}>Back to top</Link>
           </div>
       </div>
     }

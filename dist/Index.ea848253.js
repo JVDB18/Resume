@@ -28753,30 +28753,37 @@ function (_React$Component) {
       }, React.createElement(_reactScroll.Link, {
         to: "About",
         offset: -90,
-        className: "Links"
+        className: "Links",
+        onClick: this.handleClick
       }, "About"), React.createElement(_reactScroll.Link, {
         to: "Skills",
         offset: -100,
-        className: "Links"
+        className: "Links",
+        onClick: this.handleClick
       }, "Skills"), React.createElement(_reactScroll.Link, {
         to: "Experiences",
         offset: -50,
-        className: "Links"
+        className: "Links",
+        onClick: this.handleClick
       }, "Experiences"), React.createElement(_reactScroll.Link, {
         to: "Learn",
         offset: 60,
-        className: "Links"
+        className: "Links",
+        onClick: this.handleClick
       }, "Learn More"), React.createElement(_reactScroll.Link, {
         to: "Contact",
-        className: "Links"
+        className: "Links",
+        onClick: this.handleClick
       }, "Contact"), React.createElement("a", {
         href: _CV.default,
         target: "blank",
         className: "Links",
-        id: "Download"
+        id: "Download",
+        onClick: this.handleClick
       }, "Download in PDF"), React.createElement(_reactScroll.Link, {
         to: "HeaderContainer",
-        className: "Links"
+        className: "Links",
+        onClick: this.handleClick
       }, "Back to top")));
     }
   }]);
