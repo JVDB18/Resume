@@ -37,8 +37,8 @@ class Contact extends React.Component{
             <div className="FormContainer">
             <form action="https://formspree.io/vanderbysej@gmail.com" method="POST">
                 <h3 className="FormTitle">Leave me a message!</h3>
-                <input type="email" className="Mail"placeholder="email" name="_replyto" required/>
-                <textarea type="text" className="Text" placeholder="text"name="name" required/>
+                <input type="email" className="Mail"placeholder="Enter your E-mail" name="_replyto" required/>
+                <textarea type="text" className="Text" placeholder="Say Hi!"name="name" required/>
                 <input type="submit" className="Send"value="Send" target="blank" required/>
             </form>
             </div>

@@ -26,9 +26,9 @@ class Skills extends React.Component{
                 <img className="Icons1" src={Reactpng}/>
             </div>
             <div className="SkillsContainer2">
-                <img className="Icons" src={Node}/>
-                <img className="Icons" src={PHP}/>
-                <img className="Icons" src={Laravel}/>
+                <img className="Icons1" src={Node}/>
+                <img className="Icons1" src={PHP}/>
+                <img className="Icons1" src={Laravel}/>
             </div>
             <div className="SkillsContainer3">
                 <img className="Icons1" src={Docker}/>
@@ -36,19 +36,61 @@ class Skills extends React.Component{
                 <img className="Icons1" src={GIT}/>
             </div>
             <div className="SkillsContainer4">
-                <img className="Icons" src={HTML}/>
-                <img className="Icons" src={CSS}/>
+                <img className="Icons1" src={HTML}/>
+                <img className="Icons1" src={CSS}/>
                 <img className="IconsMongo" src={Mongo}/>
             </div>
             <div className="SkillsContainer5">
-                <img className="Icons" src={Figma}/>
+                <img className="Icons1" src={Figma}/>
             </div>
         </div>
+        <div className="HardText">
+            <h4>Day-to-day comfort</h4>
+            <p>
+                <ul>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Vue.js</li>
+                    <li>Agiles methodologies</li>
+                    <li>Git</li>
+                    <li>HTML5/CSS3</li>
+                    <li>Figma / GravitDesigner / Gimp / Adobe Suite</li>
+                    <li>Responsive layout and design</li>
+                </ul>
+            </p>
+        </div>
         <div className="SoftText">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae.
-                            </p>
+        <h4>Experience with</h4>
+            <p>
+                <ul>      
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Docker</li>
+                    <li>Webpack</li>
+                    <li>MongoDB / MariaDB / SQL</li>
+                </ul>
+        <h4>Actually learning</h4>
+            <ul>
+                    <li>Angular 7</li>
+                    <li>Ruby</li>
+                    <li>Node Red</li>
+                    <li>Sass/less</li>
+                    <li>Bootstrap</li>
+            </ul>
+                    {/* <li></li>
+                    <li>Deep Work and Pomodoro addict</li>
+                    <li>Positive mindset</li>
+                    <li>Peer-Programming</li>
+                    <li>Team spirit</li>
+                    <li>Hungry of knowledge</li>
+                    <li>Big load of curiosity</li>
+                    <li>Creativity</li>
+                    <li>Resourcefulness</li>
+                    <li>Dedication</li>
+                    </ul>
+                </p> */}
+                </p>
         </div>
         <div className="BadgrLink"><a className="LinksB" href="https://api.badgr.io/public/collections/65e9d39f03b194bfc85ba0d47588badb" target="blank">View Badges's Collection</a></div>
 

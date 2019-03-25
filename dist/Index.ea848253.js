@@ -28853,7 +28853,9 @@ function (_React$Component) {
         className: "ProfilePic"
       }), React.createElement("p", {
         className: "AboutText"
-      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae."));
+      }, React.createElement("h3", null, "Hi fellow human!"), React.createElement("br", null), "Let me introduce myself: Julie, Junior Front-End Developer currently looking for a fresh new internship / hiring opportunity. I am a former nursing student who's taking a career move by pursuing a programming cursus at BeCode, a coding school based on peer-learning and learning by doing (Group's projects on a daily schedule, Hackatons, Coder Dojos).", React.createElement("br", null), React.createElement("br", null), "At this point you are questionning yourself: ", React.createElement("i", null, "\"What a freshman junior dev / former nurse can do in my company? \""), React.createElement("br", null), "First thing i would tell you is that with enthusiasm, passion, and a little bit of ambition's adrenaline, you can accomplish anything. ", React.createElement("p", {
+        className: "whisper"
+      }, "- Thanks to te little chimist in your head - "), "And i have plenty of it. Perpetual learner, not affraid about working hard and late, when i started my transition in october, i barely had some HTML5 and CSS3 skills, back to this day  I could not imagine the path that would be traveled, nor the number of Hard and Soft skills that i would gain. These last months have been for me a total mind-blowing revolution: I have learned to learn, in a fast and efficient way, making of my time a valuable product. Isn't it the coolest superpower an employe could have?", React.createElement("br", null), "Did i catch your attention? Just scroll down!"));
     }
   }]);
 
@@ -28981,13 +28983,13 @@ function (_React$Component) {
       })), React.createElement("div", {
         className: "SkillsContainer2"
       }, React.createElement("img", {
-        className: "Icons",
+        className: "Icons1",
         src: _node.default
       }), React.createElement("img", {
-        className: "Icons",
+        className: "Icons1",
         src: _php.default
       }), React.createElement("img", {
-        className: "Icons",
+        className: "Icons1",
         src: _laravel.default
       })), React.createElement("div", {
         className: "SkillsContainer3"
@@ -29003,10 +29005,10 @@ function (_React$Component) {
       })), React.createElement("div", {
         className: "SkillsContainer4"
       }, React.createElement("img", {
-        className: "Icons",
+        className: "Icons1",
         src: _html.default
       }), React.createElement("img", {
-        className: "Icons",
+        className: "Icons1",
         src: _css.default
       }), React.createElement("img", {
         className: "IconsMongo",
@@ -29014,11 +29016,13 @@ function (_React$Component) {
       })), React.createElement("div", {
         className: "SkillsContainer5"
       }, React.createElement("img", {
-        className: "Icons",
+        className: "Icons1",
         src: _figma.default
       }))), React.createElement("div", {
+        className: "HardText"
+      }, React.createElement("h4", null, "Day-to-day comfort"), React.createElement("p", null, React.createElement("ul", null, React.createElement("li", null, "Javascript"), React.createElement("li", null, "React"), React.createElement("li", null, "Node.js"), React.createElement("li", null, "Vue.js"), React.createElement("li", null, "Agiles methodologies"), React.createElement("li", null, "Git"), React.createElement("li", null, "HTML5/CSS3"), React.createElement("li", null, "Figma / GravitDesigner / Gimp / Adobe Suite"), React.createElement("li", null, "Responsive layout and design")))), React.createElement("div", {
         className: "SoftText"
-      }, React.createElement("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae.")), React.createElement("div", {
+      }, React.createElement("h4", null, "Experience with"), React.createElement("p", null, React.createElement("ul", null, React.createElement("li", null, "PHP"), React.createElement("li", null, "Laravel"), React.createElement("li", null, "Docker"), React.createElement("li", null, "Webpack"), React.createElement("li", null, "MongoDB / MariaDB / SQL")), React.createElement("h4", null, "Actually learning"), React.createElement("ul", null, React.createElement("li", null, "Angular 7"), React.createElement("li", null, "Ruby"), React.createElement("li", null, "Node Red"), React.createElement("li", null, "Sass/less"), React.createElement("li", null, "Bootstrap")))), React.createElement("div", {
         className: "BadgrLink"
       }, React.createElement("a", {
         className: "LinksB",
@@ -29145,12 +29149,13 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return React.createElement("div", {
-        className: "SectionContainer"
+        className: "SectionContainer",
+        id: "LearnContainer"
       }, React.createElement("h2", {
         className: "Title4"
       }, "- Learn More -"), React.createElement("p", {
         className: "LearnText"
-      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni sint numquam hic. Illo impedit cumque quia accusantium recusandae cupiditate odio quos dignissimos? Fugit, nobis modi! Quis vitae nihil repudiandae."));
+      }, React.createElement("h3", null, "Passions"), "When i\u2019m not banging my head against some code, you will find me with a pen and a piece of sheet, i\u2019ve made my college education in art and still like to spend time creating illustration, painting or writing. Passionate about ocean, nature and wildlife hiking and diving also take a great part in my life, i am strongly involved in marine conservation since my first diving trip and totally fall in love with the philosophy, sensation and mindset of this discipline.", React.createElement("h3", null, "Some facts  about me"), React.createElement("p", null, "I can be stubborn as hell, i play video games since my dad showed me Diablo back to 1997, i loved Star Wars's prequel (i know, nobody is perfect...), i prefer Stargate over Battlestar Galactica, pineapple on pizza doesn't bother me, my friends thinks i have the sense of humor of a 3 years old, a simple smile can make my whole day, i'm a pomodoro and deep work adept, team work, curiosity and resourcefulness are essential to me, i have a cocker spaniel named Tania but everyone calls her Big Butt, and finally i recently discovered hackatons, challenging myself in those events were an incredible experience, now i'm addict.")));
     }
   }]);
 
@@ -35007,13 +35012,13 @@ function (_React$Component) {
       }, "Leave me a message!"), React.createElement("input", {
         type: "email",
         className: "Mail",
-        placeholder: "email",
+        placeholder: "Enter your E-mail",
         name: "_replyto",
         required: true
       }), React.createElement("textarea", {
         type: "text",
         className: "Text",
-        placeholder: "text",
+        placeholder: "Say Hi!",
         name: "name",
         required: true
       }), React.createElement("input", {
@@ -35202,7 +35207,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44289" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39189" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
