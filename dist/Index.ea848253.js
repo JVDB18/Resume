@@ -28968,57 +28968,6 @@ function (_React$Component) {
       }, React.createElement("h2", {
         className: "Title4"
       }, "- Skills -"), React.createElement("div", {
-        className: "IconsContainer"
-      }, React.createElement("div", {
-        className: "SkillsContainer1"
-      }, React.createElement("img", {
-        className: "Icons1",
-        src: _js.default
-      }), React.createElement("img", {
-        className: "Icons1",
-        src: _vue.default
-      }), React.createElement("img", {
-        className: "Icons1",
-        src: _react2.default
-      })), React.createElement("div", {
-        className: "SkillsContainer2"
-      }, React.createElement("img", {
-        className: "Icons1",
-        src: _node.default
-      }), React.createElement("img", {
-        className: "Icons1",
-        src: _php.default
-      }), React.createElement("img", {
-        className: "Icons1",
-        src: _laravel.default
-      })), React.createElement("div", {
-        className: "SkillsContainer3"
-      }, React.createElement("img", {
-        className: "Icons1",
-        src: _docker.default
-      }), React.createElement("img", {
-        className: "Icons1",
-        src: _sql.default
-      }), React.createElement("img", {
-        className: "Icons1",
-        src: _git.default
-      })), React.createElement("div", {
-        className: "SkillsContainer4"
-      }, React.createElement("img", {
-        className: "Icons1",
-        src: _html.default
-      }), React.createElement("img", {
-        className: "Icons1",
-        src: _css.default
-      }), React.createElement("img", {
-        className: "IconsMongo",
-        src: _mongo.default
-      })), React.createElement("div", {
-        className: "SkillsContainer5"
-      }, React.createElement("img", {
-        className: "Icons1",
-        src: _figma.default
-      }))), React.createElement("div", {
         className: "HardText"
       }, React.createElement("h4", null, "Day-to-day comfort"), React.createElement("p", null, React.createElement("ul", null, React.createElement("li", null, "Javascript"), React.createElement("li", null, "React"), React.createElement("li", null, "Node.js"), React.createElement("li", null, "Vue.js"), React.createElement("li", null, "Agiles methodologies"), React.createElement("li", null, "Git"), React.createElement("li", null, "HTML5/CSS3"), React.createElement("li", null, "Figma / GravitDesigner / Gimp / Adobe Suite"), React.createElement("li", null, "Responsive layout and design")))), React.createElement("div", {
         className: "SoftText"

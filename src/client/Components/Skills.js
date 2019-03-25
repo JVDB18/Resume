@@ -19,7 +19,7 @@ class Skills extends React.Component{
         return <div className="SectionContainer" id="Skills">
         {/* <h1 className="Title3">|||</h1> */}
         <h2 className="Title4">- Skills -</h2>
-        <div className="IconsContainer">
+        {/* <div className="IconsContainer">
             <div className="SkillsContainer1">
                 <img className="Icons1" src={JS}/>
                 <img className="Icons1" src={VUE}/>
@@ -43,7 +43,7 @@ class Skills extends React.Component{
             <div className="SkillsContainer5">
                 <img className="Icons1" src={Figma}/>
             </div>
-        </div>
+        </div> */}
         <div className="HardText">
             <h4>Day-to-day comfort</h4>
             <p>
@@ -78,18 +78,6 @@ class Skills extends React.Component{
                     <li>Sass/less</li>
                     <li>Bootstrap</li>
             </ul>
-                    {/* <li></li>
-                    <li>Deep Work and Pomodoro addict</li>
-                    <li>Positive mindset</li>
-                    <li>Peer-Programming</li>
-                    <li>Team spirit</li>
-                    <li>Hungry of knowledge</li>
-                    <li>Big load of curiosity</li>
-                    <li>Creativity</li>
-                    <li>Resourcefulness</li>
-                    <li>Dedication</li>
-                    </ul>
-                </p> */}
                 </p>
         </div>
         <div className="BadgrLink"><a className="LinksB" href="https://api.badgr.io/public/collections/65e9d39f03b194bfc85ba0d47588badb" target="blank">View Badges's Collection</a></div>
