@@ -19,7 +19,7 @@ class About extends React.Component{
                             At this point you are questionning yourself: <i>"What a freshman junior dev / former nurse can do in my company? "</i>
                                 
                                 <br/>
-                                First thing i would tell you is that with enthusiasm, passion, and a little bit of ambition's adrenaline, you can accomplish anything. <p className="whisper">- Thanks to te little chimist in your head - </p>
+                                First thing i would tell you is that with enthusiasm, passion, and a little bit of ambition's adrenaline, you can accomplish anything. <p className="whisper">- Thanks to the little chemist in your head - </p>
                             And i have plenty of it.
                             Perpetual learner, not affraid about working hard and late, when i started my transition in october, i barely had some HTML5 and CSS3 skills, back to this day  I could not imagine the path that would be traveled, nor the number of Hard and Soft skills that i would gain.
                             These last months have been for me a total mind-blowing revolution:
