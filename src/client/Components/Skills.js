@@ -49,6 +49,8 @@ class Skills extends React.Component{
             <p>
                 <ul>
                     <li>Javascript</li>
+                    <li>Angular 7</li>
+                    <li>RxJs</li>
                     <li>React</li>
                     <li>Node.js</li>
                     <li>Vue.js</li>
@@ -72,7 +74,6 @@ class Skills extends React.Component{
                 </ul>
         <h4>Actually learning</h4>
             <ul>
-                    <li>Angular 7</li>
                     <li>Ruby</li>
                     <li>Node Red</li>
                     <li>Sass/less</li>
